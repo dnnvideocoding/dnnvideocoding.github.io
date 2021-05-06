@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.4.3-dd9870075f-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT322.0962829589844S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="video" maxWidth="3840" maxHeight="2160" frameRate="24000/1001" par="16:9">
+      <Representation id="0" bandwidth="194260" codecs="avc1.640015" mimeType="video/mp4" sar="640:639" width="426" height="240">
+        <BaseURL>https://routerdi1315.uv.es/scncoding/sec-scenes/Seconds_That_Count-libx264-240-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="888-1711" timescale="24000">
+          <Initialization range="0-887"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="567295" codecs="avc1.64001e" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+        <BaseURL>https://routerdi1315.uv.es/scncoding/sec-scenes/Seconds_That_Count-libx264-480-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="889-1712" timescale="24000">
+          <Initialization range="0-888"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="1036812" codecs="avc1.64001f" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+        <BaseURL>https://routerdi1315.uv.es/scncoding/sec-scenes/Seconds_That_Count-libx264-720-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="868-1691" timescale="24000">
+          <Initialization range="0-867"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="2020408" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
+        <BaseURL>https://routerdi1315.uv.es/scncoding/sec-scenes/Seconds_That_Count-libx264-1080-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="869-1692" timescale="24000">
+          <Initialization range="0-868"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="6632378" codecs="avc1.640033" mimeType="video/mp4" sar="1:1" width="3840" height="2160">
+        <BaseURL>https://routerdi1315.uv.es/scncoding/sec-scenes/Seconds_That_Count-libx264-2160-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="869-1740" timescale="24000">
+          <Initialization range="0-868"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

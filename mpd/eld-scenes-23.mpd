@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.4.3-dd9870075f-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT182.85853576660156S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="video" maxWidth="3840" maxHeight="2160" frameRate="24000/1001" par="16:9">
+      <Representation id="0" bandwidth="481184" codecs="avc1.640015" mimeType="video/mp4" sar="640:639" width="426" height="240">
+         <BaseURL>https://routerdi1315.uv.es/scncoding/eld-scenes/Eldorado-libx264-240-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="888-1243" timescale="24000">
+          <Initialization range="0-887"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="1631173" codecs="avc1.64001e" mimeType="video/mp4" sar="1280:1281" width="854" height="480">
+         <BaseURL>https://routerdi1315.uv.es/scncoding/eld-scenes/Eldorado-libx264-480-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="889-1244" timescale="24000">
+          <Initialization range="0-888"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="3230585" codecs="avc1.64001f" mimeType="video/mp4" sar="1:1" width="1280" height="720">
+         <BaseURL>https://routerdi1315.uv.es/scncoding/eld-scenes/Eldorado-libx264-720-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="868-1223" timescale="24000">
+          <Initialization range="0-867"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="6553940" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1920" height="1080">
+         <BaseURL>https://routerdi1315.uv.es/scncoding/eld-scenes/Eldorado-libx264-1080-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="869-1236" timescale="24000">
+          <Initialization range="0-868"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="22140156" codecs="avc1.640033" mimeType="video/mp4" sar="1:1" width="3840" height="2160">
+         <BaseURL>https://routerdi1315.uv.es/scncoding/eld-scenes/Eldorado-libx264-2160-23-scenes-dash.mp4</BaseURL>
+        <SegmentBase indexRange="869-1236" timescale="24000">
+          <Initialization range="0-868"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
