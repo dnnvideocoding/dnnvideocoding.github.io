@@ -12,7 +12,7 @@
 
 *, ::after, ::before {
   box-sizing: border-box;
-  /* background-color: black; */
+  background-color: black;
 }
 video {
     height: auto;
