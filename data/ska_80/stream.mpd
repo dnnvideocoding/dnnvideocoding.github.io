@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT4M34.274S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-vp09" codecs="vp09.00.40.08.01.02.02.01.00" width="1920" height="1080" scanType="progressive" frameRate="24000/1001" bandwidth="1476652">
+        <SegmentList timescale="1000" duration="2002">
+          <Initialization sourceURL="ska_80.mp4" range="32-1096"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="1097-36562"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="36683-62614"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="62615-115089"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="115090-224385"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="224386-306745"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="306746-361989"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="361990-433098"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="433099-625742"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="625743-1242423"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="1242424-1471144"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="1471145-1546769"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="1546770-1788138"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="1788139-1921389"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="1921390-2010456"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2010457-2071348"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2071349-2101855"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2101856-2235756"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2235757-2392834"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2392835-2495725"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2495726-2678828"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2678829-2838646"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="2838647-3011359"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="3011360-3154598"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="3154599-3301534"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="3301535-3486772"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="3486773-3800790"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="3800791-3954937"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="3954938-4136323"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4136324-4230928"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4230929-4308196"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4308197-4421847"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4421848-4542823"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4542824-4723574"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4723575-4960496"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="4960497-5200252"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="5200253-5435898"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="5435899-5781701"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="5781702-6028121"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="6028122-6283085"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="6283086-6640042"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="6640043-7015811"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7015812-7373915"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7373916-7619177"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7619178-7659190"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7659191-7707759"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7707760-7749796"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7749797-7835954"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7835955-7953146"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="7953147-8040814"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8040815-8165018"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8165019-8277373"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8277374-8415153"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8415154-8603038"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8603039-8794431"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8794432-8944348"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="8944349-9637123"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="9637124-10066565"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10066566-10176824"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10176825-10256107"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10256108-10347982"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10347983-10496096"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10496097-10625259"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10625260-10844753"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="10844754-11199750"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="11199751-11416735"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="11416736-11594312"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="11594313-11716605"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="11716606-11827658"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="11827659-11978580"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="11978581-12253235"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="12253236-12684756"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="12684757-12846741"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="12846742-13005278"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="13005279-13225167"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="13225168-13363879"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="13363880-13858141"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="13858142-14355674"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="14355675-14669315"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="14669316-14931703"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="14931704-15353102"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="15353103-15570429"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="15570430-15699777"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="15699778-15873138"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="15873139-15992529"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="15992530-16091783"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16091784-16162962"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16162963-16333224"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16333225-16471291"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16471292-16571937"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16571938-16688105"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16688106-16831694"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16831695-16907946"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="16907947-17017124"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17017125-17134774"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17134775-17243611"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17243612-17312620"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17312621-17395865"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17395866-17475876"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17475877-17538594"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17538595-17647129"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17647130-17725841"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17725842-17865351"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="17865352-18063938"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18063939-18169597"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18169598-18267390"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18267391-18383434"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18383435-18563261"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18563262-18741805"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18741806-18868187"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="18868188-19001538"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19001539-19081381"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19081382-19163015"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19163016-19218267"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19218268-19261292"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19261293-19295279"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19295280-19333889"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19333890-19379878"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19379879-19412281"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19412282-19437970"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19437971-19471196"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19471197-19509588"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19509589-19528413"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19528414-19546290"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19546291-19561188"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19561189-19595244"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19595245-19649534"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19649535-19679474"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19679475-19709414"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19709415-19751948"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19751949-19816992"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19816993-19834608"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19834609-19852224"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19852225-19869840"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19869841-19901176"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19901177-19924072"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19924073-19932217"/>
+          <SegmentURL media="ska_80.mp4" mediaRange="19932218-19941952"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+    <!-- Subtitles (Sidecar) -->
+    <AdaptationSet mimeType="text/vtt" contentType="text" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="subtitles/en" bandwidth="144">
+        <BaseURL>subtitles/en/ska_80.txt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
