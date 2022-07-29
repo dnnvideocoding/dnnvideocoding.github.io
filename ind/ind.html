@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>El Dorado CRF 23</title>
+  <title>Indoor Soccer</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/png" sizes="96x96" href="../img/ico/favicon-96x96.png">
@@ -26,10 +26,10 @@
   <script>
     function play_pause() {
 
-      var iframef = document.getElementById("videof");
-      var video1 = iframef.contentWindow.document.getElementById('video');
-      var iframea = document.getElementById("videoa");
-      var video2 = iframea.contentWindow.document.getElementById('video');
+      var iframef = document.getElementById("videoa");
+      var video1 = iframef.contentWindow.document.getElementById('video1');
+      var iframea = document.getElementById("videof");
+      var video2 = iframea.contentWindow.document.getElementById('video2');
 
       if (video1.paused == true) {
         video1.play(); video2.play();
@@ -71,7 +71,7 @@
         document.msExitFullscreen();
       }
     }
-
+       
   </script>
 </head>
 
@@ -83,15 +83,15 @@
       </div>
       <div class="w-100"></div>
       <div class="col">
-        <p class="text-center text-light mytex" style="padding: 8%;">Scene-based</p>
+        <p class="text-center text-light mytex" style="padding: 8%;">VMAF= 80</p>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe id="videoa" class="embed-responsive-item" src="./eld-scenes-23.html""></iframe>
+          <iframe id="videoa" class="embed-responsive-item" src="./ind-80.html""></iframe>
         </div>
       </div>
       <div class=" col">
-            <p class="text-center text-light mytex" style="padding: 8%;">Fixed</p>
+            <p class="text-center text-light mytex" style="padding: 8%;">VMAF= 90</p>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe id="videof" class="embed-responsive-item" src="./eld-fixed-23.html"></iframe>
+              <iframe id="videof" class="embed-responsive-item" src="./ind-90.html"></iframe>
             </div>
         </div>
       </div>

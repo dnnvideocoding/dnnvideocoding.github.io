@@ -191,7 +191,7 @@ body {
 	left: 25%;
 	outline: 5px solid #fff; /* avoid rounding gaps */
 	background: #fff;
-	color: #b66e12;
+	color: #275318;
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
 }
@@ -345,11 +345,11 @@ body {
 }
 
 .image_left{
-	background-image: url(../img/sec_poster.jpg);
+	background-image: url(../img/ind.jpg);
 	background-size: cover;
 }
 .image_right{
-	background-image: url(../img/eld_poster.jpg);
+	background-image: url(../img/ska.jpg);
 	background-size: cover;
 }
 
@@ -478,7 +478,7 @@ body {
 
 /* grid item */
 .cbp-ig-grid li {
-	width: 33%;
+	width: 50%;
 	float: left;
 	/* height: 420px; */
 	text-align: end;
@@ -508,7 +508,7 @@ body {
 .cbp-ig-grid-r li > a {
 	display: block;
 	height: 100%;
-	color: #be8b50 !important;
+	color: #275318 !important;
 	-webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
 	transition: background 0.2s;
@@ -573,7 +573,7 @@ body {
 .cbp-ig-grid-l .cbp-ig-title:before {
 	content: '';
 	position: absolute;
-	background: #2f6aa6;
+	background: hsl(0, 34%, 55%);
 	width: 160px;
 	height: 6px;
 	top: 0px;
@@ -642,7 +642,7 @@ body {
 
 .cbp-ig-grid-l li > a:hover .cbp-ig-icon:before,
 .cbp-ig-grid-l li > a:hover .cbp-ig-title {
-	color: #2f6aa6;
+	color: hsl(0, 34%, 55%);;
 }
 
 .cbp-ig-grid li > a:hover .cbp-ig-title {
@@ -658,7 +658,7 @@ body {
 }
 
 .cbp-ig-grid-l li > a:hover .cbp-ig-title:before {
-	background: #2f6aa6;
+	background: hsl(0, 34%, 55%);;
 	margin-top: 80px;
 }
 
