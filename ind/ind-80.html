@@ -34,9 +34,6 @@
     </style>
 
 <body onload="startVideo()" style="background-color: black;">
-   <div class="video-controls hidden" id="video-controls">
-		<button id="playpause" type="button" data-state="play">Play/Pause</button>
-	</div>
 
    <video id="video1" preload="metadata" height="45%">
        <source src="../data/ind_80.mp4" type="video/mp4">
@@ -47,18 +44,6 @@
    <script>
      const video1 = document.getElementById('video1');
      const videoControls = document.getElementById('video-controls');
-
-
-     const playButton = document.getElementById('playpause');
-
-     function togglePlay() {
-     if (video1.paused || video1.ended) {
-         video1.play();
-     } else {
-         video1.pause();
-     }
-     }
-     playButton.addEventListener('click', togglePlay);
 
    </script>
 </body>
