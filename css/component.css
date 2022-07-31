@@ -345,11 +345,11 @@ body {
 }
 
 .image_left{
-	background-image: url(../img/ind.jpg);
+	background-image: url(../img/ska.jpg);
 	background-size: cover;
 }
 .image_right{
-	background-image: url(../img/ska.jpg);
+	background-image: url(../img/ind.jpg);
 	background-size: cover;
 }
 
